@@ -1,7 +1,7 @@
 # Learnable-Fourier-Features
 
-Unofficial pytorch implementation of the paper "Learnable Fourier Features for Multi-Dimensional Spatial Positional Encoding", NeurIPS 2021.
-https://arxiv.org/pdf/2106.02795.pdf
+Unofficial PyTorch implementation of the paper "[Learnable Fourier Features for Multi-Dimensional Spatial Positional Encoding](https://arxiv.org/pdf/2106.02795.pdf)", NeurIPS 2021.
+
 
 Basic usage is as below:
 ```python
@@ -13,4 +13,6 @@ pe = lff(pos)  # forward
 
 ```
 
-More detailed explanation of usage can be found in the file ```positional_encoding.py```, and other popular positional encoding methods such as the sinusoidal positional encoding from the paper "Attention is All You Need", and fourier features from the paper "Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains" are also implemented in the file.
+More detailed explanation of usage can be found in the file `positional_encoding.py`.
+
+Other popular positional encoding methods such as the sinusoidal positional encoding from the paper "[Attention is All You Need](https://arxiv.org/pdf/1706.03762)", and fourier features from the paper "[Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://arxiv.org/pdf/2006.10739)" are also implemented in the file.
